@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<head>
+<title>Classic White</title>
+<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+<meta charset="utf-8">
+<!-- Google Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Parisienne' rel='stylesheet' type='text/css'>
+<!-- CSS Files -->
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+<link rel="stylesheet" type="text/css" media="screen" href="menu/css/simple_menu.css">
+<!-- Contact Form -->
+<link href="contact-form/css/style.css" media="screen" rel="stylesheet" type="text/css">
+<link href="contact-form/css/uniform.css" media="screen" rel="stylesheet" type="text/css">
+<!-- JS Files -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="js/jquery.tools.min.js"></script>
+<script>
+$(function () {
+    $("#prod_nav ul").tabs("#panes > div", {
+        effect: 'fade',
+        fadeOutSpeed: 400
+    });
+});
+</script>
+<script>
+$(document).ready(function () {
+    $(".pane-list li").click(function () {
+        window.location = $(this).find("a").attr("href");
+        return false;
+    });
+});
+</script>
+</head>
+<body>
+  <div class="header">
+    <div id="site_title"><a href="index.html"><img src="img/logo.png" alt=""></a></div>
+    <!-- Main Menu -->
+    <ol id="menu">
+      <li class="active_menu_item"><a href="index.html">Home</a>
+        <!-- sub menu -->
+        <ol>
+          <li><a href="nivo.html">Car Slider</a></li>
+        </ol>
+        <!--END submenu-->
+      </li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="elements.html">Purchase</a></li>
+      <li><a href="gallery-simple.html">Galleries</a>
+      </li>
+      <!-- END sub menu -->
+      <li><a href="contact.html">Contact</a></li>
+    </ol>
+  </div>
+<!-- END header -->
+<div id="container">
+  <!-- tab panes -->
+  <div id="prod_wrapper">
+    <div id="panes">
+      <div> <img src="img/1953_merc.jpeg" alt="">
+        <h2>1953 Mercedenz</h2>
+        <p>The Mercedes-Benz W120 was an inline-four cylinder sedan introduced by Mercedes-Benz in 1953. Powered initially by the company's existing 1.8 liter M136 engine, it was sold as the Mercedes-Benz 180 through 1962. The Mercedes-Benz W121 was introduced in 1956, powered by a 1.9 liter M121 engine. It sold as the Mercedes-Benz 190 through 1961. The 180 continued to use the 56 PS (41 kW; 55 hp) M136 engine from the Mercedes-Benz 170 Sb until 1957, when it received a downtuned version of the 190's M121. </p>
+        <p style="text-align:right; margin-right: 16px"><a href="#" class="button">More Info</a> <a href="#" class="button">Buy Now</a></p>
+      </div>
+      <div> <img src="img/1953_porsche.jpeg" alt="">
+        <h2>1953 Porsche</h2>
+        <p>The Porsche 356 is a sports car which was first produced by Austrian company Porsche Konstruktionen GesmbH (1948–1949), and then by German company Dr. Ing. h. c. F. Porsche GmbH (1950–1965). It was Porsche's first production automobile. Earlier cars designed by the Austrian company include Cisitalia Grand Prix race car, the Volkswagen Beetle, and Auto Union Grand Prix cars. The 356 is a lightweight and nimble-handling, rear-engine, rear-wheel drive, two-door available both in hardtop coupé and open configurations. Engineering innovations continued during the years of manufacture, contributing to its motorsports success and popularity. Production started in 1948 at Gmünd, Austria, where approximately 50 cars were built. </p>
+        <p style="text-align:right; margin-right: 16px"><a href="#" class="button">More Info</a> <a href="#" class="button">Buy Now</a></p>
+      </div>
+      <div> <img src="img/1961_shelby_cobra.jpeg" alt="">
+        <h2>1961 Shely Cobra</h2>
+        <p>Like many British manufacturers, AC Cars had been using the Bristol straight-6 engine in its small-volume production, including its AC Ace two-seater roadster. This had a hand-built body with a steel tube frame, and aluminium body panels that were made using English wheeling machines. The engine was a pre-World War II design by BMW which by the 1960s was considered dated. Bristol decided in 1961 to cease production of its engine and instead to use Chrysler 313 cu in (5.1 L) V8 engines. AC started using the 2.6 litre Ford Zephyr engine in its cars.  </p>
+        <p style="text-align:right; margin-right: 16px"><a href="#" class="button">More Info</a> <a href="#" class="button">Buy Now</a></p>
+      </div>
+      <div> <img src="img/1966_jaguar_etype.jpeg" alt="">
+        <h2>1966 Jaguar Etype</h2>
+        <p>The Jaguar E-Type, or the Jaguar XK-E for the North American market, is a British sports car that was manufactured by Jaguar Cars Ltd between 1961 and 1975. Its combination of beauty, high performance, and competitive pricing established the model as an icon of the motoring world. The E-Type's 150 mph (241 km/h) top speed, sub-7-second 0 to 60 mph (97 km/h) acceleration, monocoque construction, disc brakes, rack-and-pinion steering, and independent front and rear suspension distinguished the car and spurred industry-wide changes.</p>
+        <p style="text-align:right; margin-right: 16px"><a href="#" class="button">More Info</a> <a href="#" class="button">Buy Now</a></p>
+      </div>
+
+    </div>
+    <!-- END tab panes -->
+    <br clear="all">
+    <!-- navigator -->
+    <div id="prod_nav">
+      <ul>
+        <li><a href="#1"><img src="img/1953_merc.jpeg" width="160" alt=""><strong>1953 Mercedenz</strong> $ 199</a></li>
+        <li><a href="#2"><img src="img/1953_porsche.jpeg" width="160" alt=""><strong>1951 Porsche</strong> $ 125</a></li>
+        <li><a href="#3"><img src="img/1961_shelby_cobra.jpeg" width="160" alt=""><strong>1961 Shelby Cobra</strong> $ 480</a></li>
+        <li><a href="#4"><img src="img/1966_jaguar_etype.jpeg" width="160" alt=""><strong>1966 Jaguar Etype</strong> $ 1099</a></li>
+      </ul>
+    </div>
+    <!-- END navigator -->
+  </div>
+  <!-- END prod wrapper -->
+  <div style="clear:both"></div>
+  <div class="one-third">
+    <h2>Affordable</h2>
+    <p>Most of the cars are affordable compared to other car dealers. So do not hesitate to make a purchase. We are righ at your service. See you at the counter.</p>
+    <p style="text-align:right; margin-right: 15px"></p>
+  </div>
+  <div class="one-third">
+    <h2>Become a Partner</h2>
+    <p>Partner with us and enjoy the profits as we rake the sales. We have a great deal for you and will be glad to have you onboard.</p>
+    <p style="text-align:right; margin-right: 15px"></p>
+  </div>
+  <div class="one-third last">
+    <h2>Latest News</h2>
+    <p>Following negotiations with the Antique Society we shall be opening a new collection of antique cars, redefining the neglected ones in garages. We shall be open soon. </p>
+    <p style="text-align:right; margin-right: 15px"></p>
+  </div>
+  <div style="clear:both"></div>
+
+  <div class="one-half">
+    <div class="heading_bg">
+      <h2>About Us</h2>
+    </div>
+    <blockquote>We got beautiful Classic Cars for you, thats what we have. At the heart of Norway you will find us, at Hafstadvegen.</blockquote>
+    <p style="text-align:right; margin-right: 16px; margin-bottom: 15px"><a href="aboutus.html" class="button" style="font-size: 18px">Find out more</a></p>
+
+  </div>
+  <div class="one-half last">
+    <div class="heading_bg">
+      <h2>Contact us today!</h2>
+    </div>
+    <form action="#" class="TTWForm" method="post">
+      <div id="field1-container" class="field f_50">
+        <label for="field1">Name</label>
+        <input name="name" id="field1" type="text">
+      </div>
+      <div id="field2-container" class="field f_50">
+        <label for="field2">Telephone</label>
+        <input name="tel" id="field2" type="text">
+      </div>
+      <div id="field5-container" class="field f_50">
+        <label for="field5">Email</label>
+        <input name="email" id="field5" type="email">
+      </div>
+      <div id="field4-container" class="field f_100">
+        <label for="field4">Message</label>
+        <textarea rows="5" cols="20" name="message" id="field4"></textarea>
+      </div>
+      <div id="form-submit" class="field f_100 clearfix submit">
+        <input value="Submit" type="submit">
+      </div>
+    </form>
+  </div>
+  <div style="clear:both; height: 40px"></div>
+</div>
+<!-- END container -->
+<div id="footer">
+  <!-- First Column -->
+  <div class="one-fourth">
+    <h3>Useful Links</h3>
+    <ul class="footer_links">
+      <li><a href="https://classiccars.com/">Classic Cars</a></li>
+      <li><a href="https://www.classiccarclub.org/">Classic Car Club of America(CCCA)</a></li>
+      <li><a href="www.aaca.org/">Antique Automobile Club of America(AACA)</a></li>
+    </ul>
+  </div>
+  <div class="one-fourth last">
+    <h3>Socialize</h3>
+    <img src="img/icon_fb.png" alt="">
+    <img src="img/icon_twitter.png" alt="">
+    <img src="img/icon_in.png" alt="">
+  </div>
+  <div style="clear:both"></div>
+  <p>Copyright &copy</p>
+</div>
+<!-- END footer -->
+</body>
+</html>
