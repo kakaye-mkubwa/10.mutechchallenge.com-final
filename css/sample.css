@@ -1,0 +1,8 @@
+th:hover
+{
+  background-color: #ffff99;
+}
+.mtable tr td:hover
+{
+  background-color: #ffff99;
+}
